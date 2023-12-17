@@ -17,7 +17,6 @@ public abstract class Transport implements Testable{
     public void updateTyre() {
         System.out.println("Обслуживаем " + modelName);
         System.out.println("Замена покрышек: " + wheelsCount);
-        System.out.println("Меняем покрышку");
     }
 
 }
