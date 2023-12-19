@@ -20,5 +20,6 @@ public class Car extends Transport{
     public void test() {
         updateTyre();
         checkEngine();
+
     }
 }
