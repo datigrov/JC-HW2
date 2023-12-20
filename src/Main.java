@@ -9,10 +9,10 @@ public class Main {
         Car car = new Car("Audi RS6", 4);
         Truck truck = new Truck("MAN", 6);
 
-        Transport[] transports = new Transport[]{bicycle, car, truck};
-        for (Transport transport : transports) {
-            transport.test();
-        }
+        truck.test();
+        bicycle.test();
+        car.test();
+
 
     }
 }
