@@ -9,10 +9,8 @@ public class Main {
         Car car = new Car("Audi RS6", 4);
         Truck truck = new Truck("MAN", 6);
 
-        truck.test();
-        bicycle.test();
-        car.test();
-
-
+        Transport[] transports = new Transport[]{bicycle, car, truck};
+        ServiceStation serviceStation = new ServiceStation();
+        serviceStation.test(transports);
     }
 }
